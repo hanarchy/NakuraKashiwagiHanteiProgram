@@ -1,0 +1,103 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin-bottom: 50px;
+}
+
+.navbar{
+    border-radius: 0;
+    padding-left: 10px;
+}
+
+header{
+    position: absolute;
+    background-color: #003232;
+    height: 80px;
+    width: 100%;
+    display: block;
+}
+
+header h1{
+    color: #f8f8f8;
+    font-size: calc(0.5vw + 28px);
+}
+
+
+.display_area{
+    position: relative;
+}
+.display_area textarea{
+    position: relative;
+    font-size: 16px;
+    overflow: auto;
+    width: 98%;
+    height: 200px;
+}
+.container{
+    background-color: white;
+}
+
+.btn-hantei{
+    width: 100%;
+    font-size: 12px;
+    height: 50px;
+    /*color: black;*/
+}
+
+.btn-hantei {
+    color: #fff;
+    background-color: #0e6565;
+    border-radius: 0;
+}
+.btn-hantei:focus,
+.btn-hantei.focus {
+    color: #fff;
+    background-color: #004646;
+}
+.btn-hantei:hover {
+    color: #fff;
+    background-color: #004646;
+}
+.btn-hantei:active,
+.btn-hantei.active,
+.open > .dropdown-toggle.btn-hantei {
+    color: #fff;
+    background-color: #004646;
+}
+.btn-hantei:active:hover,
+.btn-hantei.active:hover,
+.open > .dropdown-toggle.btn-hantei:hover,
+.btn-hantei:active:focus,
+.btn-hantei.active:focus,
+.open > .dropdown-toggle.btn-hantei:focus,
+.btn-hantei:active.focus,
+.btn-hantei.active.focus,
+.open > .dropdown-toggle.btn-hantei.focus {
+    color: #fff;
+    background-color: #004646;
+    /*border-color: #255625;*/
+}
+.btn-hantei:active,
+.btn-hantei.active,
+.open > .dropdown-toggle.btn-hantei {
+    background-image: none;
+}
+.btn-hantei.disabled:hover,
+.btn-hantei[disabled]:hover,
+fieldset[disabled] .btn-hantei:hover,
+.btn-hantei.disabled:focus,
+.btn-hantei[disabled]:focus,
+fieldset[disabled] .btn-hantei:focus,
+.btn-hantei.disabled.focus,
+.btn-hantei[disabled].focus,
+fieldset[disabled] .btn-hantei.focus {
+    background-color: #5cb85c;
+    /*border-color: #4cae4c;*/
+}
+.btn-hantei .badge {
+    color: #5cb85c;
+    background-color: #fff;
+}
